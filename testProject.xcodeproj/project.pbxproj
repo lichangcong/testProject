@@ -15,6 +15,7 @@
 		5C9429192133FD6B00713E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9429182133FD6B00713E14 /* main.m */; };
 		5C9429232133FD6B00713E14 /* testProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9429222133FD6B00713E14 /* testProjectTests.m */; };
 		5C94292E2133FD6B00713E14 /* testProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C94292D2133FD6B00713E14 /* testProjectUITests.m */; };
+		5C94293E2133FEE100713E14 /* BCZPlusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C94293D2133FEE100713E14 /* BCZPlusObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5C9429292133FD6B00713E14 /* testProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C94292D2133FD6B00713E14 /* testProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectUITests.m; sourceTree = "<group>"; };
 		5C94292F2133FD6B00713E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C94293C2133FEE100713E14 /* BCZPlusObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCZPlusObject.h; sourceTree = "<group>"; };
+		5C94293D2133FEE100713E14 /* BCZPlusObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCZPlusObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5C9429082133FD6700713E14 /* testProject */ = {
 			isa = PBXGroup;
 			children = (
+				5C94293B2133FDAC00713E14 /* class */,
 				5C9429092133FD6700713E14 /* AppDelegate.h */,
 				5C94290A2133FD6700713E14 /* AppDelegate.m */,
 				5C94290C2133FD6700713E14 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				5C94292F2133FD6B00713E14 /* Info.plist */,
 			);
 			path = testProjectUITests;
+			sourceTree = "<group>";
+		};
+		5C94293B2133FDAC00713E14 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				5C94293C2133FEE100713E14 /* BCZPlusObject.h */,
+				5C94293D2133FEE100713E14 /* BCZPlusObject.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C94293E2133FEE100713E14 /* BCZPlusObject.m in Sources */,
 				5C94290E2133FD6700713E14 /* ViewController.m in Sources */,
 				5C9429192133FD6B00713E14 /* main.m in Sources */,
 				5C94290B2133FD6700713E14 /* AppDelegate.m in Sources */,
@@ -435,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
