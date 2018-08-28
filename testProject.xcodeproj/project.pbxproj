@@ -17,6 +17,8 @@
 		5C94292E2133FD6B00713E14 /* testProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C94292D2133FD6B00713E14 /* testProjectUITests.m */; };
 		5C94293E2133FEE100713E14 /* BCZPlusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C94293D2133FEE100713E14 /* BCZPlusObject.m */; };
 		5C942941213530FE00713E14 /* icon.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5C942940213530FE00713E14 /* icon.zip */; };
+		5C9429442135389200713E14 /* jiongji100_dictionary.db in Resources */ = {isa = PBXBuildFile; fileRef = 5C9429422135389200713E14 /* jiongji100_dictionary.db */; };
+		5C9429452135389200713E14 /* JiongDaily_Cloze.sqlite.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5C9429432135389200713E14 /* JiongDaily_Cloze.sqlite.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		5C94293C2133FEE100713E14 /* BCZPlusObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCZPlusObject.h; sourceTree = "<group>"; };
 		5C94293D2133FEE100713E14 /* BCZPlusObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCZPlusObject.m; sourceTree = "<group>"; };
 		5C942940213530FE00713E14 /* icon.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = icon.zip; sourceTree = "<group>"; };
+		5C9429422135389200713E14 /* jiongji100_dictionary.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = jiongji100_dictionary.db; sourceTree = "<group>"; };
+		5C9429432135389200713E14 /* JiongDaily_Cloze.sqlite.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = JiongDaily_Cloze.sqlite.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				5C942940213530FE00713E14 /* icon.zip */,
+				5C9429432135389200713E14 /* JiongDaily_Cloze.sqlite.zip */,
+				5C9429422135389200713E14 /* jiongji100_dictionary.db */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C9429442135389200713E14 /* jiongji100_dictionary.db in Resources */,
 				5C9429162133FD6B00713E14 /* LaunchScreen.storyboard in Resources */,
+				5C9429452135389200713E14 /* JiongDaily_Cloze.sqlite.zip in Resources */,
 				5C9429132133FD6B00713E14 /* Assets.xcassets in Resources */,
 				5C942941213530FE00713E14 /* icon.zip in Resources */,
 				5C9429112133FD6700713E14 /* Main.storyboard in Resources */,
