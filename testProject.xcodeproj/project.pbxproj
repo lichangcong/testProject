@@ -16,6 +16,7 @@
 		5C9429232133FD6B00713E14 /* testProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9429222133FD6B00713E14 /* testProjectTests.m */; };
 		5C94292E2133FD6B00713E14 /* testProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C94292D2133FD6B00713E14 /* testProjectUITests.m */; };
 		5C94293E2133FEE100713E14 /* BCZPlusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C94293D2133FEE100713E14 /* BCZPlusObject.m */; };
+		5C942941213530FE00713E14 /* icon.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5C942940213530FE00713E14 /* icon.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		5C94292F2133FD6B00713E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C94293C2133FEE100713E14 /* BCZPlusObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCZPlusObject.h; sourceTree = "<group>"; };
 		5C94293D2133FEE100713E14 /* BCZPlusObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCZPlusObject.m; sourceTree = "<group>"; };
+		5C942940213530FE00713E14 /* icon.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = icon.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		5C9429082133FD6700713E14 /* testProject */ = {
 			isa = PBXGroup;
 			children = (
+				5C94293F213530FE00713E14 /* resource */,
 				5C94293B2133FDAC00713E14 /* class */,
 				5C9429092133FD6700713E14 /* AppDelegate.h */,
 				5C94290A2133FD6700713E14 /* AppDelegate.m */,
@@ -143,6 +146,14 @@
 				5C94293D2133FEE100713E14 /* BCZPlusObject.m */,
 			);
 			path = class;
+			sourceTree = "<group>";
+		};
+		5C94293F213530FE00713E14 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5C942940213530FE00713E14 /* icon.zip */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			files = (
 				5C9429162133FD6B00713E14 /* LaunchScreen.storyboard in Resources */,
 				5C9429132133FD6B00713E14 /* Assets.xcassets in Resources */,
+				5C942941213530FE00713E14 /* icon.zip in Resources */,
 				5C9429112133FD6700713E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
